@@ -6,7 +6,7 @@ use banco_central;
 CREATE TABLE TiposPrestamo (
     TipoPrestamoID INT AUTO_INCREMENT PRIMARY KEY,
     NombreTipo VARCHAR(255) NOT NULL
-)
+);
 
 -- Creación de la tabla Prestamos
 -- Contiene los detalles de los préstamos emitidos a los clientes.
